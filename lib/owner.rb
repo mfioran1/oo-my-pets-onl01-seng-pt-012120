@@ -25,6 +25,12 @@ attr_reader :name, :species
   def buy_cat(cat_name)
     @pets[:cats] = Cat.new(cat_name, self)
   end
+  
+  def buy_dog(dog_name)
+    @pets[:dogs] = Dog.new(dog_name, self)
+  end
+  
+  
     
   
   
