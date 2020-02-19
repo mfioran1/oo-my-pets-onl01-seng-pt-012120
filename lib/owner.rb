@@ -34,7 +34,7 @@ attr_reader :name, :species
   def walk_dogs
     @pets[:dogs].collect do |dog|
     binding.pry   
-      dog.mood = "happy"
+    dog.mood = "happy"
     end
   end
     
