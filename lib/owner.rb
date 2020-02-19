@@ -44,10 +44,9 @@ attr_reader :name, :species
   end 
   
   def sell_pets
-    
-    if dogs.each do |dog|
-      elsif 
-      cats.each do |cat|  
+        
+    dogs.each do |dog|
+    cats.each do |cat|  
     pet.mood = "nervous"
       end
     end 
