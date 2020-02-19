@@ -30,7 +30,9 @@ attr_reader :name, :species
     @pets[:dogs] = Dog.new(dog_name, self)
   end
   
+  def self.walk_dogs
   
+  end  
     
   
   
