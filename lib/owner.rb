@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
 attr_accessor :pets 
 attr_reader :name, :species
@@ -31,6 +32,7 @@ attr_reader :name, :species
   end
   
   def walk_dogs
+  binding.pry   
     @pets[:dogs].each{|dog| dog.mood = "happy"}
   
   end  
