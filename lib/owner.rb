@@ -8,4 +8,6 @@ attr_reader :name, :species
     @species = "human"
     @@all << self
   end  
+  
+  
 end
