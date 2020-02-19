@@ -44,12 +44,10 @@ attr_reader :name, :species
   end 
   
   def sell_pets
-    binding.pry 
-    dogs.each do |dog|
-    cats.each do |cat|  
+    pets_to_sell = self.cats + self.dogs 
+    pets_to_sell.each do |pet|
     pet.mood = "nervous"
-      end
-    end 
+    end
   end   
     
     
