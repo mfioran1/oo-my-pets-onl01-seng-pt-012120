@@ -3,8 +3,7 @@ attr_accessor :name, :pets
 attr_reader :species
 @@all = []
 
-  def initialize(species = human)
-    @name = name 
+  def initialize(species)
     @species = species
     @@all << self
   end  
