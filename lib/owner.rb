@@ -22,8 +22,8 @@ attr_reader :name, :species
      Dog.all.select{|dog| dog.owner == self}
   end
   
-  def buy_cat(cat_name, mood)
-    @pets[:cats] = Cat.new(cat_name, mood)
+  def buy_cat(cat_name)
+    @pets[:cats] = Cat.new(cat_name)
   end
     
   
