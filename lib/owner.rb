@@ -7,6 +7,7 @@ attr_reader :name, :species
     @name = name
     @species = "human"
     @@all << self
+    @pets = {:dogs => [], :cats => []}
   end  
   
   def say_species
@@ -21,7 +22,9 @@ attr_reader :name, :species
      Dog.all.select{|dog| dog.owner == self}
   end
   
-  def buy_cat
+  def buy_cat(cat_name)
+    @pets[:cats] = Cat.new(cat_name)
+  end
     
   
   
