@@ -9,5 +9,6 @@ attr_reader :name, :species
     @@all << self
   end  
   
-  
+  def say_species
+    
 end
