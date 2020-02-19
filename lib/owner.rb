@@ -13,6 +13,9 @@ attr_reader :name, :species
     "I am a #{@species}."
   end 
   
+  def cats 
+    Cat.all.select{|cat| cat.owner == self}
+  end
   
   
   
