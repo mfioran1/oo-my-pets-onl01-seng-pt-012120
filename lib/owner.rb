@@ -35,9 +35,8 @@ attr_reader :name, :species
     @pets[:dogs].collect do |dog|
     binding.pry   
       dog.mood = "happy"
-      end
     end
-  end  
+  end
     
   
   
