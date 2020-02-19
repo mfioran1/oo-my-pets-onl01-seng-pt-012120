@@ -17,5 +17,8 @@ attr_reader :name, :species
     @@all
   end
   
+  def self.count
+    @@all.count
+  end
   
 end
