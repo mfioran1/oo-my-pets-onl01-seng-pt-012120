@@ -47,6 +47,7 @@ attr_reader :name, :species
     pets_to_sell = self.cats + self.dogs 
     pets_to_sell.each do |pet|
     pet.mood = "nervous"
+    pet.owner = nil 
     end
   end   
     
