@@ -41,7 +41,9 @@ attr_reader :name, :species
     cats.each do |cat|
       cat.mood = "happy"
     end
-  end  
+  end 
+  
+  def sell_pets
     
   
   
