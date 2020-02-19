@@ -13,6 +13,18 @@ attr_reader :name, :species
     "I am a #{@species}."
   end 
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   def self.all
     @@all
   end
